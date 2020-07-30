@@ -1,0 +1,13 @@
+# Fictional Telco 
+[AWS Site](https://consumer-trend.s3.eu-west-2.amazonaws.com/root/fictional-telco.html)
+
+### AWS API Gateway -> Lambda Function -> NLP (nltk, random forest) 
+[Engineering Notes](https://consumer-trend.s3.eu-west-2.amazonaws.com/eng-notes.html)
+
+
+### D3
+[Customer stats by Town](https://consumer-trend.s3.eu-west-2.amazonaws.com/fictional-customers-town.html)
+
+[Customer Stats Trend](https://consumer-trend.s3.eu-west-2.amazonaws.com/fictional-customers-trend.html)
+
+

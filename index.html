@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Fictional Telco - Customer BSS Demo by Billicom</title>
+  
+  <meta name="description" content="Fictional Telco BSS Demo - Billicom, Billing, Invoice, Trend, Churn, Customer, Consumer, Stats, Invoicing, AWS, NLP,API Gateway, Lambda, Dynamo DB, Telecom, D3, UK, United Kingom, London, Billicom">
+  <meta name="viewport" content="width=device-width initial-scale=0.5 maximum-scale=0.5">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet"
+    type="text/css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="./style.css">
+
+<link rel="icon" type="image/png" href="./billicom_logo.png" />
+<link rel="stylesheet" href="./breadcrumbs.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+
+<header>
+<ul class="breadcrumb">
+    <a href="index.html"><img src="billicom_logo.png" width="40" height="40" style="float: right" 
+     alt="Telco BSS Demo - Billicom, Trend, Churn, Invoice, Customer, Consumer, Stats, AWS, NLP,API Gateway, Lambda, Dynamo DB, Telecom, D3, UK, United Kingom, London, Billicom"></a>
+  <li>Home</li>
+  </ul>
+  <h1>Fictional Telco - BSS Demo</h1>
+</header>
+
+<nav>
+  <div class="ii">Invoices</div>
+  <form name='f' id="inv-sf">
+    <div id="an-ph">
+      <input type="search" id="an" name="account_number" placeholder="Account Number">
+    </div>
+    <div id="in-ph">
+      <input type="search" id="in" name="invoice_number" placeholder="Invoice Number">
+    </div>
+    <div id="is-ph">
+    </div>
+    <input id="inv-button" name="ib" type="button" value="Go!">
+    <input id="rst-button" name="rb" type="reset" value="Clear">
+  </form>
+
+</nav>
+<kbd class="iid">AWS API Gateway -> Lambda Function -> Dynamo DB -> XSLT</kbd>
+<main>
+
+  <aside>
+    <h3>ML Demo</h3>
+
+    <a href="eng-notes.html">
+      <div class="iid"><em>Engineering Notes</em></div>
+      <kbd class="iid">AWS API Gateway -> Lambda Function -> NLP (nltk, random forest)</kbd>
+    </a>
+
+   <h3>Customer Stats Demos</h3>
+
+    <a href="fictional-customers-town.html">
+      <div class="iid"><em>Customer stats by Town (D3)</em></div>
+    </a><br>
+    <a href="fictional-customers-trend.html">
+      <div class="iid"><em>Customer Stats Trend (D3)</em></div>
+    </a>
+  </aside>
+  <article id="inv-dom" />
+
+</main>
+
+<footer>
+  <p>©Copyright 2020 by V.</p>
+</footer>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

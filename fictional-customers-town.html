@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+  <head>
+    <title>Fictional Telco's Customer Trends alla Hans Rosling - stats by Postal Town</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=0.5 maximum-scale=0.5">
+    <meta name="description" content="Telco BSS Demo - Billicom, Trend, Churn, Invoice, Customer, Consumer, Stats, AWS, NLP,API Gateway, Lambda, Dynamo DB, Telecom, D3, UK, United Kingom, London">
+
+    <link rel="stylesheet" type="text/css" href="fictional_customers_town.css" media="screen" />
+    <script src="d3.v3.js"></script>
+    <script src="fictional_customers_town.js"></script>
+	
+	<link rel="icon" type="image/png" href="./billicom_logo.png" />
+	<link rel="stylesheet" href="./breadcrumbs.css">
+  </head>
+  <body>
+
+
+	<header >
+		<ul class="breadcrumb">
+		 	<img src="./billicom_logo.png" width="40" height="40" style=" float: right" 
+		    alt="Telco BSS Demo - Billicom, Trend, Churn, Invoice, Customer, Consumer, Stats, AWS, NLP,API Gateway, Lambda, Dynamo DB, Telecom, D3, UK, United Kingom, London, Billicom">
+
+			<li><a href="./index.html">Home</a></li>
+			<li>Customer stats by Postal Town</li>
+		</ul>
+	</header>
+
+	<main>
+	  
+		<div  id="chart1">
+ 		  <label class="checkbox"><input id="myVor" type="checkbox" checked> </input> Hide Voronoi</label>
+		  <label class="checkbox1"><input id="mySqr" type="checkbox" > </input> Customers = Surface Area</label>
+		</div>
+
+	</main>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function(event) {
+        updateGraph();
+      });
+    </script>
+  </body>
+</html>

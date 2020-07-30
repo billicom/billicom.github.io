@@ -1,0 +1,149 @@
+#@import url(//fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+svg {
+  font: 14px 'Open Sans';
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+.focus circle {
+  fill: none;
+  stroke: steelblue;
+}
+
+.axis text {
+  fill: #000;
+}
+
+.axis .tick line {
+  stroke: rgba(0, 0, 0, 0.1);
+}
+
+.area {
+  stroke-width: 1;
+}
+
+.area.above {
+  fill: rgb(252,141,89);
+}
+
+.area.below {
+  fill: rgb(145,207,96);
+}
+
+
+
+.area.outer.upper,
+.legend .outer {
+  fill: rgba(230, 230, 255, 0.8);
+  stroke: rgba(216, 216, 255, 0.8);
+}
+
+.area.outer.lower,
+.legend .outer {
+  fill: rgba(255,69,0, 0.8);
+  stroke: rgba(216, 216, 255, 0.8);
+}
+
+.area.inner.upper,
+.legend .inner {
+  fill: rgba(60,179,113, 0.8);
+  stroke: rgba(96, 96, 255, 0.8);
+}
+.area.inner.lower,
+.legend .inner {
+  fill: rgba(255,0,0, 0.8);
+  stroke: rgba(96, 96, 255, 0.8);
+}
+
+.net-line,
+.legend .net-line {
+  fill: none;
+  stroke: #000;
+  stroke-width: 3;
+}
+
+        .focusLine {
+            fill: none;
+            stroke: steelblue;
+            stroke-width: 0.5px;
+        }
+        
+.customer-line {
+  fill: none;
+  stroke: #0000FF;
+  stroke-width: 3;
+}
+
+.joins-line {
+  fill: none;
+  stroke: #00ff00;
+  stroke-width: 1 px;
+}
+.leavers-line {
+  fill: none;
+  stroke: #ff0000;
+  stroke-width: 1 px;
+}
+
+.churn-line {
+  fill: none;
+  stroke: #FF0000;
+  stroke-width: 2;
+}
+
+.acquisition-line {
+  fill: none;
+  stroke: rgb(145,207,96);
+  stroke-width: 2;
+}
+
+.legend .legend-bg {
+  fill: rgba(0, 0, 0, 0.5);
+  stroke: rgba(0, 0, 0, 0.5);
+}
+
+.marker.price .marker-bg,
+.marker.price path {
+  fill: rgba(255, 127, 0, 0.5);
+  stroke: rgba(255, 127, 0, 0.5);
+  stroke-width: 3;
+}
+
+.marker.major .marker-bg,
+.marker.major path {
+  fill: rgba(150,150,150, 0.4);
+  stroke: rgba(0, 0, 0, 0.5);
+  stroke-width: 3;
+}
+
+.marker.strategic .marker-bg,
+.marker.strategic path {
+  fill: rgba(82, 100, 189, 0.5);
+  stroke: rgba(82, 100, 189, 0.5);
+  stroke-width: 3;
+}
+
+.marker path {
+  fill: none;
+}
+
+.legend text,
+.marker text {
+  fill: #fff;
+  font-weight: bold;
+}
+
+.marker text {
+  text-anchor: middle;
+}

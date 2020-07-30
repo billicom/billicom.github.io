@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Telco Customers Trends Chart Demo by Billicom</title>
+    <link rel="stylesheet" href="fictional_customer_trend.css">
+	<script type="text/javascript" src="d3.v3.js"></script>
+	
+	<link rel="icon" type="image/png" href="./billicom_logo.png" />
+	<link rel="stylesheet" href="./breadcrumbs.css">
+	
+	<meta name="viewport" content="width=device-width initial-scale=0.5 maximum-scale=0.5">
+    <meta name="description" content="Customer Trends, Telco BSS Demo - Billicom, Trend, Churn, Invoice, Customer, Consumer, Stats, Telecom, D3, UK, United Kingom, London">
+ 	
+	
+  </head>
+
+  <body>
+ 
+ <header class="column is-half is-offset-one-quarter">
+<ul class="breadcrumb">
+    <a href="index.html"><img src="./billicom_logo.png" width="40" height="40" style="float: right;" 
+     alt="Telco BSS Demo - Billicom, Trend, Churn, Invoice, Customer, Consumer, Stats, AWS, NLP,API Gateway, Lambda, Dynamo DB, Telecom, D3, UK, United Kingom, London, Billicom"></a>
+  <li><a href="./index.html">Home</a></li>
+  <li>Customer Trends</li>
+  </ul>
+</header>
+
+<form method="post" >
+ <select name="fromPer" onchange="drawChart(document.forms[0].fromPer.value, document.forms[0].toPer.value)">
+    <option value="0000-00" selected>Earliest</option>
+    <option value="2010-01">2010-01</option>
+    <option value="2011-01">2011-01</option>
+    <option value="2012-01">2012-01</option>
+    <option value="2013-01">2013-01</option>
+    <option value="2014-01">2014-01</option>
+    <option value="2015-01">2015-01</option>
+    <option value="2016-01">2016-01</option>
+    <option value="2017-01">2017-01</option>
+    <option value="2018-01">2018-01</option>
+    <option value="2019-01">2019-01</option>
+ </select>
+
+  <select name="toPer" onchange="drawChart(document.forms[0].fromPer.value, document.forms[0].toPer.value)">
+     <option value="2011-01">2011-01</option>
+     <option value="2012-01">2012-01</option>
+     <option value="2013-01">2013-01</option>
+     <option value="2014-01">2014-01</option>
+     <option value="2015-01">2015-01</option>
+     <option value="2016-01">2016-01</option>
+     <option value="2017-01" >2017-01</option>
+     <option value="2018-01">2018-01</option>
+     <option value="2019-01">2019-01</option>
+     <option value="9999-99" selected>Present</option>
+ </select>
+
+<!-- <input type="button" value="Refresh" onclick="drawChart(document.forms[0].fromPer.value,document.forms[0].toPer.value)"/> -->
+
+</form>
+ <script src="./fictional_customer_trend.js"></script>
+</body>
+</html>

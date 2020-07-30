@@ -1,0 +1,72 @@
+.chart {
+    height: 506px;
+}
+
+text {
+    font: 10px sans-serif;
+}
+
+text1 {
+    font: 10px sans-serif;
+}
+
+.dot {
+    stroke: #000;
+}
+
+.axis path, .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.label {
+    fill: #777;
+}
+
+.year.label {
+    font: 500 146px "Helvetica Neue";
+    fill: #ddd;
+}
+
+.year.label.active {
+    fill: #aaa;
+}
+
+.overlay {
+    fill: none;
+    pointer-events: all;
+    cursor: ew-resize;
+}
+
+.checkbox {
+    position: absolute;
+    dispay: inline;
+    left: 800px;
+    top: 25px;
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    color: rgb(0,128,128);
+}
+
+.checkbox1 {
+    position: absolute;
+    dispay: inline;
+    left: 800px;
+    top: 45px;
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    color: rgb(0,128,128);
+}
+
+.explan-text {
+    position: absolute;
+    dispay: inline;
+    left: 19.5px;
+    top: 595px;
+    width: 490px;
+    font-family: "Helvetica Neue";
+    font-size: "15px";
+    color: black;
+	//background-color: #eee;
+}

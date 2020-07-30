@@ -1,0 +1,200 @@
+/* || General setup */
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+ 
+html {
+  font-size: 10px;
+  background-color: white;
+}
+
+body { 
+  width: 90%;
+  margin: 0 auto;
+}
+
+h1, h2, h3, .ii, .iid {
+  //font-family: 'Sonsie One', cursive;
+ // font-family: cursive;  
+  color: #2a2a2a;
+}
+ 
+p, input, li, select {
+  font-family: 'Open Sans Condensed', sans-serif; 
+  color: #2a2a2a; 
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 10px black;
+}
+
+h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: 2.2rem;
+  text-align: left;
+}
+
+.ii {
+  font-weight: bold;
+  font-size: 2.2rem;
+  color: #108d90;
+}
+
+.iid {
+  font-size: 1.4rem;
+  display: flex;
+  margin-bottom: 4px;  
+  padding: 1%;
+}
+
+p, li {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+/* || header layout */
+
+nav, article, aside, footer {
+  padding: 1%;
+}
+
+nav, aside, footer, .iid {
+  background-color: rgba(16, 141, 144, 0.1);
+  color: #108d90;
+}
+
+nav {
+  height: 50px;
+  display: flex;
+  //margin-bottom: 10px;
+}
+
+
+nav a {
+  display: inline-block;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+
+nav form {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  padding: 0 2em;
+}
+
+input {
+  font-size: 1.6rem;
+  height: 32px;
+  margin-right: .1rem;  
+}
+
+select {
+  flex 1;
+  font-size: 1.6rem;
+  height: 32px;
+  margin: .5 rem;
+  border: 1;
+}
+
+input[type="search"] { 
+  flex: 3;
+}
+
+input[type="button"] {
+  flex: 0;
+  background: #333;
+  border: 1;
+  color: white;
+}
+
+input[type="reset"] {
+  flex: 0;
+  background: #888;
+  border: 1;
+  color: white;
+}
+/* || main layout */
+
+main {
+  display: flex;
+}
+
+article {
+  flex: 4;
+  margin-left: 2px;
+  //color: rgb(209, 79, 105);
+  background-color: #fce8e6;// rgba(209, 79, 105, 0.1); 
+}
+
+.container {
+bottom: auto;
+position: relative;
+display: inline-block;
+width: 0;
+//height: 0;
+//margin:  6px 6px 0;
+//background-color: rgb(191,191,191);
+vertical-align: top;
+transform-origin: left top;
+}
+
+
+article table{
+  border-color: rgba(16, 141, 144, 0.1) !important;
+   color: black;
+ // color: rgb(209, 79, 105)
+}
+
+article h1 {
+  font-size: none !important;
+  text-align: center;
+  text-shadow: none !important;
+  font-family: none !important;  
+  color: #2a2a2a;
+}
+
+
+aside {
+  flex: 1;
+  //  margin-left: 2px;
+}
+
+aside a {
+  //display: inline-block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  //text-transform: uppercase;
+  text-decoration: none;
+  //color: black;
+}
+
+aside .iid{
+  font-weight: normal;
+  margin-bottom: 0px;  
+  padding: 2%; 
+  
+  }
+
+
+aside h3{
+  font-size: 1.6rem;
+  color: #108d90;
+}
+
+footer {
+  margin-top: 4px;
+}

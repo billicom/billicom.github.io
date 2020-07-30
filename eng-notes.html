@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Engineer Notes - NLP in Telecom by Billicom</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Telco BSS Demo - Billicom, AWS, NLP, API Gateway, Lambda, Telecom,UK, United Kingom, London">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.min.css" integrity="sha256-8nf+BDtOgthqqdcfZXfDwth8LL6k314ILswPBDzXMp4=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+	<link href="minimal-table.css" rel="stylesheet" type="text/css">
+    <style>
+      .ssl__nav img {
+        width: auto;
+        height: 50px;
+        max-height: none;
+      }
+      .ssl__nav .nav-right {
+        display: flex;
+      }
+      .ssl__content {
+        padding: 1em;
+      }
+    </style>
+	
+	
+	<link rel="icon" type="image/png" href="./billicom_logo.png" />
+	<link rel="stylesheet" href="./breadcrumbs.css">
+
+  </head>
+  <body>
+
+<header class="column is-half is-offset-one-quarter">
+<ul class="breadcrumb">
+    <a href="index.html"><img src="./billicom_logo.png" width="40" height="40" style="float: right;" 
+     alt="Telco BSS Demo - Billicom, Trend, Churn, Invoice, Customer, Consumer, Stats, AWS, NLP,API Gateway, Lambda, Dynamo DB, Telecom, D3, UK, United Kingom, London, Billicom"></a>
+  <li><a href="./index.html">Home</a></li>
+  <li>Engineer Notes</li>
+  </ul>
+</header>
+
+    <div class="container ssl__content">
+      <div class="columns">
+        <div class="column is-half is-offset-one-quarter">
+          <form id="form" action="https://sntu0if8sf.execute-api.eu-west-2.amazonaws.com/test/vjNotes1">
+            <input type="hidden" value="note" name="ParamName" />
+            <div class="card">
+              <div class="card-header">
+                <p class="card-header-title">Engineer Notes</p>
+              </div>
+              <div class="card-content">
+                <div class="field">
+                  <p class="control">
+                    <textarea class="input" placeholder="Enter Note" name="EngNote" value="" required="required" style="height:150px;"></textarea>				
+                  </p>
+                </div>
+                <div class="field">
+                  <button class="button is-primary" id="button">Process Note</button>
+					<button type="reset" class="button is-info" style="float: right;">Reset</button>
+					<button id="demoButton2" class="button is-light" style="float: right;">Demo Note 2</button>
+					<button id="demoButton1" class="button is-light" style="float: right;">Demo Note 1</button>	 
+                </div>				
+                <div class="notification is-danger" id="error" style="display: none;"></div>
+              </div>
+              <div class="card-content">
+                <div id="result"></div>
+              </div>
+              <div class="card-content">
+                <div id="note"></div>
+              </div>
+			  <div class="card-content">
+                <div id="exp"></div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="eng-notes.js"></script>
+  </body>
+</html>

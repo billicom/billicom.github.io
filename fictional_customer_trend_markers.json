@@ -1,0 +1,52 @@
+[
+	{
+	"date": "2013-04",
+	"type": "Price",
+	"version": "Change"
+	},
+	{
+	"date": "2014-12",
+	"type": "Price",
+	"version": "Change"
+	},  
+	{
+	"date": "2015-04",
+	"type": "Price",
+	"version": "Change"
+	},
+	{
+	"date": "2015-10",
+	"type": "Major",
+	"version": "Event"
+	},
+	{
+	"date": "2016-11",
+	"type": "Strategic",
+	"version": "Product"
+	},
+	{
+	"date": "2017-06",
+	"type": "Price",
+	"version": "Change"
+	},
+	{
+	"date": "2018-01",
+	"type": "Price",
+	"version": "Change"
+	},
+	{
+	"date": "2018-07",
+	"type": "Price",
+	"version": "Change"
+	},
+	{
+	"date": "2019-02",
+	"type": "Price",
+	"version": "Change"
+	},
+	{
+	"date": "2019-06",
+	"type": "Price",
+	"version": "Change"
+	}
+]
