@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Allow: /sitemap.htm
-Sitemap: https://vanja-jovic.github.io/sitemap.xml
+Allow: /sitemap.xml
+Sitemap: https://billicom.github.io/sitemap.xml
