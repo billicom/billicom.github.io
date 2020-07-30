@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
   <url>
-    <loc>https://vanja-jovic.github.io</loc>
-    <lastmod>2020-07-29</lastmod>
+    <loc>https://billicom.github.io/</loc>
+    <lastmod>2020-07-30</lastmod>
   </url>
   <url>
-    <loc>https://vanja-jovic.github.io/fictional-customers-trend.html</loc>
-    <lastmod>2020-07-29</lastmod>    
+    <loc>https://billicom.github.io/index.html</loc>
+    <lastmod>2020-07-30</lastmod>
   </url>
   <url>
-    <loc>https://vanja-jovic.github.io/eng-notes.html</loc>
-    <lastmod>2020-07-29</lastmod>
+    <loc>https://billicom.github.io/fictional-customers-trend.html</loc>
+    <lastmod>2020-07-30</lastmod>    
   </url>
   <url>
-    <loc>https://vanja-jovic.github.io/fictional-customers-town.html</loc>
-    <lastmod>2020-07-29</lastmod>
+    <loc>https://billicom.github.io/eng-notes.html</loc>
+    <lastmod>2020-07-30</lastmod>
+  </url>
+  <url>
+    <loc>https://billicom.github.io/fictional-customers-town.html</loc>
+    <lastmod>2020-07-30</lastmod>
   </url>
 </urlset>
